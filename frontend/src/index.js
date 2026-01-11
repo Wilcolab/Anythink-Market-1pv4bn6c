@@ -7,6 +7,8 @@ import { store } from "./store";
 import App from "./components/App";
 import { BrowserRouter } from "react-router-dom";
 
+console.log("hello");
+
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter basename="/">
